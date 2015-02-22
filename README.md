@@ -6,7 +6,7 @@
 [![Gem Version](https://img.shields.io/gem/v/rspec-matcher-hash-item.svg)](https://rubygems.org/gems/rspec-matcher-hash-item)
 [![Total Downloads](https://img.shields.io/gem/dt/rspec-matcher-hash-item.svg)](https://rubygems.org/gems/rspec-matcher-hash-item)
 [![Github Issues](https://img.shields.io/github/issues/jantman/rspec-matcher-hash-item.svg)](https://github.com/jantman/rspec-matcher-hash-item/issues)
-[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/0.1.0/active.svg)](http://www.repostatus.org/#active)
+[![Project Status: Abandoned - Initial development has started, but there has not yet been a stable, usable release; the project has been abandoned and the author(s) do not intend on continuing development.](http://www.repostatus.org/badges/0.1.0/abandoned.svg)](http://www.repostatus.org/#abandoned)
 
 This gem provides some rspec matchers to simplify assertions about
 the internal state of has hobjects.
