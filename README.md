@@ -11,6 +11,14 @@
 This gem provides some rspec matchers to simplify assertions about
 the internal state of has hobjects.
 
+Note that, as [@myronmarston](https://twitter.com/myronmarston) pointed out in a
+[comment on my blog](http://blog.jasonantman.com/2015/02/rspec-matcher-for-hash-item-value/#comment-1868422853),
+what ``have_hash_item_matching`` does is probably better and easier to do in rspec3 with composable matchers, like:
+
+~~~~{.ruby}
+its(:headers) { should include('keyname' => /match_regex/) }
+~~~~
+
 ## Installation
 
 Add this line to your application's Gemfile:
