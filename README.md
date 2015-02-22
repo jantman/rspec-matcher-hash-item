@@ -11,13 +11,22 @@
 This gem provides some rspec matchers to simplify assertions about
 the internal state of has hobjects.
 
-Note that, as [@myronmarston](https://twitter.com/myronmarston) pointed out in a
-[comment on my blog](http://blog.jasonantman.com/2015/02/rspec-matcher-for-hash-item-value/#comment-1868422853),
-what ``have_hash_item_matching`` does is probably better and easier to do in rspec3 with composable matchers, like:
+# Do Not Use This
+
+Well, this is embarassing. A few hours _after_ I published a blog post about this, I received a
+[comment](http://blog.jasonantman.com/2015/02/rspec-matcher-for-hash-item-value/#comment-1868422853)
+from [@myronmarston](https://twitter.com/myronmarston). I'd originally
+written this matcher for RSpec2, and then had to convert my project to use
+RSpec3. I just blindly converted this matcher over. Myron pointed out that with
+RSpec3's [composable matchers](http://rspec.info/blog/2014/01/new-in-rspec-3-composable-matchers/),
+the functionality of this gem is built-in. It can be done as simply as:
 
 ~~~~{.ruby}
-its(:headers) { should include('keyname' => /match_regex/) }
+its(:headers) { should include('server' => /nginx\/1\./) }
 ~~~~
+
+__As such, I've yanked them gem and am leaving the code and blog post here just for posterity.__
+This should probably not be used.
 
 ## Installation
 
