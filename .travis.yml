@@ -1,13 +1,17 @@
----
 language: ruby
 before_install:
-  - gem install bundler
+- gem install bundler
 install: bundle install
 script: bundle exec rspec --color --format documentation
 notifications:
   email: true
+  pushover:
+    api_key:
+      secure: f+xqGP3myktYNd0lY+zhnUsVcPXiLvugh3f1+V4quYoQBKJvGrFhYhV02Olq0vm3mD1YSKAdefk//3V/Ce6SAokdtWGr6ECG7GOn5ci52g/Iq8n3nrHuawLdU9jLd+k0bAvME5FeBlw6MjNOimpR5qYQ6Gam1fGw7pSDd6EAWWo=
+    users:
+      secure: Wfku1wLCUIObgyJ8/drXU2W5p91eCyOydW9aocoWXN3zBglFuGb9ikftV/+lGw5D13vT2IBbdWtiQ5DyUGEzfbocglnE7Pg7XUHWIe00KDIlbygUX3JJgMlaM1yF6SeaY2A52Tynaokl6enqkNYHsl6NhvSy88sB4+t/GuAEtfs=
 rvm:
-  - 2.0.0
+- 2.0.0
 env:
   global:
-    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
