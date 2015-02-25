@@ -7,9 +7,9 @@ notifications:
   email: true
   pushover:
     api_key:
-      secure: f+xqGP3myktYNd0lY+zhnUsVcPXiLvugh3f1+V4quYoQBKJvGrFhYhV02Olq0vm3mD1YSKAdefk//3V/Ce6SAokdtWGr6ECG7GOn5ci52g/Iq8n3nrHuawLdU9jLd+k0bAvME5FeBlw6MjNOimpR5qYQ6Gam1fGw7pSDd6EAWWo=
+      secure: H6gzf0phwxXVU8iozw2RFqoxSkPu2+vpOQHEnu4hLERmpKU3+dX5g2cWJprF/zkaVmdW+p0+cNECW7NyE6QCbvVs9W97v28YS3JPtCg0bYu8nZa8NcttLtel/AweujALgnuRdpO6Qh3yriYBAVIYpOvUE6NkV7ssW4Rr5IjaYqE=
     users:
-      secure: Wfku1wLCUIObgyJ8/drXU2W5p91eCyOydW9aocoWXN3zBglFuGb9ikftV/+lGw5D13vT2IBbdWtiQ5DyUGEzfbocglnE7Pg7XUHWIe00KDIlbygUX3JJgMlaM1yF6SeaY2A52Tynaokl6enqkNYHsl6NhvSy88sB4+t/GuAEtfs=
+      secure: O5Iko4StNd7Tryjgxy/W7zz3yA6d3fivO7DCxRZwobL/QwlcWfXCkAu8Qwyum/txWYuLS4r3DzJdZ/R7BmxKFKKnELWpegqJX2Dxwcnkily68aulPTN8hEi3BZkqXFFBhfAd4HrnluKayVG/O2m/tdtgWFHpfrd1Kd0gf4oqIt8=
 rvm:
 - 2.0.0
 env:
